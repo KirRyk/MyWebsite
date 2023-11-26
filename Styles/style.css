@@ -27,7 +27,6 @@
 
 .header__navs{
     width: 100%;
-    height: 119px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -234,4 +233,39 @@ border: 1px solid black;
     margin-top: 60px;
     width: 1024px;
     height: 160px;
+}
+
+@media (max-width: 320px) {
+    .page{
+        width: 100%;
+    }
+    .header{
+        width: 100%;
+    }
+    .header__logo{
+        width: 20%;
+    }
+    .header__nav{
+        width: 40%;
+    }
+    .header__nav1{
+        width: 40%;
+    }
+    .header__title-block{
+        margin: auto;
+        margin-top: 885px;
+        height: 624px;
+    }
+    .header__title{
+        margin: auto;
+        height: 624px;
+    }
+    .header__navs{
+        display: flex;
+        flex-direction: column;
+    }
+    .header__navs1{
+        display: flex;
+        flex-direction: column;
+    }
 }
