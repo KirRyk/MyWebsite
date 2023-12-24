@@ -40,7 +40,9 @@
 
 @media (width <= 600px) {
     .header{
+        width: 100%;
         height: 30vh;
+        margin: 0;
         flex-direction: column;
     }
     .header__logo{
@@ -58,7 +60,7 @@
     }
 }
 
-@media (width <= 360px) {
+@media (width <= 400px) {
     .header{
     }
     .header__logo{
